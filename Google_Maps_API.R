@@ -1,8 +1,8 @@
 # set working directory
-#setwd("C:/Users/AMULGASPAR/Desktop/VijayAnnaProject/Datasets")
+#setwd("working Directory")
 
 # Read the file
-taxi <- read.csv("taxi.csv",header=TRUE)
+taxi <- read.csv("file name",header=TRUE)
 
 # Convert latitude and logitude to address using Google Map API
 library(evaluate)
